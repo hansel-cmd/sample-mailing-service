@@ -5,7 +5,7 @@
 </head>
 <body>
 
-    <form action="mail_handler.php" method="POST">
+    <form action="https://formspree.io/f/mzbkyozn" method="POST">
         <label>Name:</label>
         <input type="text" required name="name"/>
         <br />
@@ -16,7 +16,6 @@
         <textarea name="message">
         </textarea>
         <br />
-        <input type="hidden" class="hidden" value="valkirecesa@gmail.com" name="to">
         <input type="submit" value="submit" name="submit">
     </form>
 </body>
